@@ -126,11 +126,13 @@ nav {
   align-items: center;
   gap: 32px;
 }
-.feature-card h2 {
-  font-size: 24px;
-  font-weight: SemiBold;
+.feature-card h3 {
+  font-size: 17px;
+  font-weight: 600;
   color: #001931;
-  margin: 16px 24px;
+  /* margin: 16px 24px; */
+  margin-top: 16px;
+  padding: 0 24px;
 }
 .feature-card p {
   font-size: 16px;
@@ -143,11 +145,16 @@ nav {
   background-color: #ffffff;
   padding: 32px;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 8px 0px rgb(0,0,0,0.1);
   width: 322px;
+  height: 300px;
+  text-align: center;
+  cursor: pointer;
 }
-.feature-card .card i {
-  color: #f95555;
+.feature-card .card img {
+  width: 60px;
+  margin-bottom: 16px
+;
 }
 
 #Solution-Container {
@@ -231,10 +238,22 @@ nav {
   color: #627382;
   line-height: 20px;
   font-weight: Regular;
-  margin-bottom: 40px;
+  margin-top: 16px;
+  margin-bottom: 24px;
+  align-items: center;
+  text-align: center;
 }
-.down-partContent .btn {
-  margin: 24px 16px;
+.down-partContent .last-btn {
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 4px;
+  margin-top: 24px;
+  margin: 0 auto;
+  background-color: #30b868;
+  padding: 16.5px;
+  cursor: pointer; 
 }
 .smallP {
   font-size: 16px;
@@ -242,24 +261,43 @@ nav {
   font-weight: Regular;
   margin-bottom: 80px;
 }
+
+/* footer start */
 .footer-container {
   max-width: 1360px;
   margin: 0 auto;
   padding: 0;
-  display: flex;
   background-color: #001931;
 }
-.containerr {
+.footer-right h5{
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.footer-flex {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 120px;
+  margin-bottom: 80px;
+}
+
+.icons ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 16px;
+}
+.footer-container p {
+ font-size : 14px;
+    font-weight : 400;
+    color : #fbfcfd;
+    text-align : center;
+    padding-bottom : 40px;
+    padding-top : 30px;
+    border-top : 1px solid #465a6c;
 
 }
-.footer-left .footer-left img {
-  width: 100%;
-  margin-left: 120px;
-}
-.footer-right {
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 0 40px;
 
-}
